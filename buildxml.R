@@ -25,6 +25,7 @@ c(paste0('<CRANTaskView>
   '  </packagelist>',
   '  <links>',
   '    <a href="https://github.com/ropensci/taxonomy">Taxonomy Task View</a>',
+  '    <a href="https://cloud.r-project.org/web/views/SpatioTemporal.html">Spatiotemporal Task View</a>',
   '  </links>',
   '</CRANTaskView>')
 

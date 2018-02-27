@@ -170,3 +170,5 @@ category.
 ### Related links:
 
   - [Taxonomy Task View](https://github.com/ropensci/taxonomy)
+  - [Spatiotemporal Task
+    View](https://cloud.r-project.org/web/views/SpatioTemporal.html)
