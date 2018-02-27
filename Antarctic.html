@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CRAN Task View: Antarctic and Southern Ocean Science</title>
+<link rel="stylesheet" type="text/css" href="../CRAN_web.css">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="citation_title" content="CRAN Task View: Antarctic and Southern Ocean Science">
+<meta name="citation_author" content="Ben Raymond">
+<meta name="citation_publication_date" content="2018-02-27">
+<meta name="citation_public_url" content="https://CRAN.R-project.org/view=Antarctic">
+<meta name="DC.title" content="CRAN Task View: Antarctic and Southern Ocean Science">
+<meta name="DC.creator" content="Ben Raymond">
+<meta name="DC.issued" content="2018-02-27">
+<meta name="DC.identifier" content="https://CRAN.R-project.org/view=Antarctic">
+</head>
+<body>
+  <h2>Antarctic and Southern Ocean Science</h2>
+  <div>
+      <p>
+        This article is about R packages that are relevant to Antarctic and Southern Ocean science. It includes packages in various states of maturity, including some in planning or very early stages of development.
+      </p>
+      <p>
+        Antarctic and Southern Ocean science covers a diverse range of topics within the geosciences, life sciences, physical sciences, and humanities and social sciences. This article is therefore not intended to be an exhaustive list of packages that are relevant to all of those fields, but rather a synopsis of packages that are for one reason or another of particular interest to Antarctic and Southern Ocean researchers. The definition of “particular interest” is of course largely arbitrary.
+      </p>
+      <p>
+        Contributions are welcome! Please
+        <a href="https://github.com/ropensci/taxonomy/issues">
+          submit an issue
+        </a>, or make a contribution (see the
+        <a href="CONTRIBUTING.md">
+          contribution guidelines
+        </a>). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+      </p>
+      <p>
+        Many thanks to Scott Chamberlain and Michael Sumner for contributions.
+      </p>
+      <h2 id="taxonomic-data">
+        Taxonomic Data
+      </h2>
+      <p>
+        The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic database for Antarctic marine organisms. RAMS is part of the World Register of Marine Species (WoRMS).
+      </p>
+      <ul>
+<li>
+<a href="../packages/worrms/index.html">worrms</a>
+          client for the
+          <a href="http://www.marinespecies.org/">
+            WoRMS
+          </a>
+          API. Contains mostly taxonomic data, but also trait data.
+        </li>
+        <li>
+<a href="../packages/taxize/index.html">taxize</a>
+          access to 20ish sources of taxonomic data sources, including WoRMS.
+<a href="../packages/taxize/index.html">taxize</a>
+          connects to a lot of data sources, and has consistent data outputs across the data sources. In addition, there’s operations that a user wants to do that are consistent across data sources, hiding the gory details of each data source.
+        </li>
+      </ul>
+<p>
+        RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by
+<tt>worrms</tt>
+        and the server-side infrastructure hosted by VLIZ. There is also the
+<a href="../packages/biotaxa/index.html">biotaxa</a>
+        (
+        <a href="https://github.com/hhsieh/biotaxa_Rpackage">
+          GitHub
+        </a>) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).
+      </p>
+      <p>
+        For more detail on R packages dealing with taxonomy in general, see the
+        <a href="https://github.com/ropensci/taxonomy">
+          ropensci taxonomy task view
+        </a>.
+      </p>
+      <h2 id="mapping">
+        Mapping
+      </h2>
+      <p>
+        Mapping is a very common task, and in an Antarctic/Southern Ocean context brings with it particular issues including dealing with projections at high latitudes, coping with data that crosses the 180°E line, adding commonly-desired features such as ocean fronts, management boundaries, sea ice extent, stations and other geographic features, and common contextual layers such as bathymetry.
+      </p>
+      <ul>
+<li>
+          <p>
+<a href="../packages/sospatial/index.html">sospatial</a>
+            (
+            <a href="https://github.com/AustralianAntarcticDivision/sospatial">
+              GitHub
+            </a>
+            provides some easy to use Southern Ocean data sets and examples of their use with base graphics, raster, ggplot, and mapview/leaflet.
+          </p>
+        </li>
+        <li>
+          <p>
+<a href="../packages/antanym/index.html">antanym</a>
+            (
+            <a href="https://github.com/SCAR/antanym">
+              GitHub
+            </a>) provides geographic place name data from the SCAR Composite Gazetteer of Antarctica, with plans to extend the coverage to subantarctic and informal gazetteers at a later date.
+          </p>
+        </li>
+        <li>
+          <p>
+<a href="../packages/orsifronts/index.html">orsifronts</a>
+            provides the commonly-used Orsi et al. (1995) definitions of the major Southern Ocean fronts.
+          </p>
+        </li>
+        <li>
+          <p>
+<a href="../packages/graticule/index.html">graticule</a>
+            creates graticule lines (lines of longitude and latitude) and labels for maps.
+          </p>
+        </li>
+        <li>
+          <p>
+            there is some Antarctic-related mapping functionality in
+<a href="../packages/prtools/index.html">prtools</a>
+            (
+            <a href="https://github.com/pierreroudier/prtools">
+              GitHub
+            </a>),
+<a href="../packages/atlasr/index.html">atlasr</a>
+            (
+            <a href="https://github.com/jiho/atlasr">
+              GitHub
+            </a>), and
+<a href="../packages/CCAMLRGIS/index.html">CCAMLRGIS</a>
+            (
+            <a href="https://github.com/ccamlr/CCAMLRGIS">
+              GitHub
+            </a>).
+          </p>
+        </li>
+      </ul>
+<h2 id="miscellaneous">
+        Miscellaneous
+      </h2>
+      <p>
+        Packages that may be of interest but don’t yet fit neatly into another category.
+      </p>
+      <ul>
+<li>
+<a href="../packages/distancetocoast/index.html">distancetocoast</a>
+          (
+          <a href="https://github.com/mdsumner/distancetocoast">
+            GitHub
+          </a>) provides “distance to coastline” data for longitude and latitude coordinates.
+        </li>
+      </ul>
+</div>
+
+  <h3>CRAN packages:</h3>
+  <ul>
+<li><a href="../packages/antanym/index.html">antanym</a></li>
+    <li><a href="../packages/atlasr/index.html">atlasr</a></li>
+    <li><a href="../packages/biotaxa/index.html">biotaxa</a></li>
+    <li><a href="../packages/CCAMLRGIS/index.html">CCAMLRGIS</a></li>
+    <li><a href="../packages/distancetocoast/index.html">distancetocoast</a></li>
+    <li><a href="../packages/graticule/index.html">graticule</a></li>
+    <li><a href="../packages/orsifronts/index.html">orsifronts</a></li>
+    <li><a href="../packages/prtools/index.html">prtools</a></li>
+    <li><a href="../packages/sospatial/index.html">sospatial</a></li>
+    <li><a href="../packages/taxize/index.html">taxize</a></li>
+    <li><a href="../packages/worrms/index.html">worrms</a></li>
+  </ul>
+<h3>Related links:</h3>
+  <ul>
+<li><a href="https://github.com/ropensci/taxonomy">
+  Taxonomy Task View
+</a></li>
+  </ul>
+</body>
+</html>
