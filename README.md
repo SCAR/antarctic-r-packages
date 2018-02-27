@@ -23,7 +23,7 @@ contact the maintainer of that package.
 
 Many thanks to Scott Chamberlain and Michael Sumner for contributions.
 
-## Taxonomic Data
+### Taxonomic Data
 
 The Register of Antarctic Marine Species (RAMS) is the authoritative
 taxonomic database for Antarctic marine organisms. RAMS is part of the
@@ -51,7 +51,7 @@ in taxonomic diversity over time).
 For more detail on R packages dealing with taxonomy in general, see the
 [ropensci taxonomy task view](https://github.com/ropensci/taxonomy).
 
-## Mapping
+### Mapping
 
 Mapping is a very common task, and in an Antarctic/Southern Ocean
 context brings with it particular issues including dealing with
@@ -82,7 +82,7 @@ common contextual layers such as
     [atlasr](https://github.com/jiho/atlasr), and
     [CCAMLRGIS](https://github.com/ccamlr/CCAMLRGIS).
 
-## Miscellaneous
+### Miscellaneous
 
 Packages that may be of interest but don’t yet fit neatly into another
 category.

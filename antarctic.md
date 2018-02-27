@@ -6,9 +6,7 @@ Contributions are welcome! Please [submit an issue](https://github.com/ropensci/
 
 Many thanks to Scott Chamberlain and Michael Sumner for contributions.
 
-
-Taxonomic Data
---------------
+### Taxonomic Data
 
 The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic database for Antarctic marine organisms. RAMS is part of the World Register of Marine Species (WoRMS).
 
@@ -20,8 +18,7 @@ RAMS is currently being extended to cover non-marine taxa, which will become the
 For more detail on R packages dealing with taxonomy in general, see the [ropensci taxonomy task view](https://github.com/ropensci/taxonomy).
 
 
-Mapping
--------
+### Mapping
 
 Mapping is a very common task, and in an Antarctic/Southern Ocean context brings with it particular issues including dealing with projections at high latitudes, coping with data that crosses the 180&deg;E line, adding commonly-desired features such as ocean fronts, management boundaries, sea ice extent, stations and other geographic features, and common contextual layers such as bathymetry.
 
@@ -36,8 +33,7 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 - there is some Antarctic-related mapping functionality in [prtools](https://github.com/pierreroudier/prtools), [atlasr](https://github.com/jiho/atlasr), and [CCAMLRGIS](https://github.com/ccamlr/CCAMLRGIS).
 
 
-Miscellaneous
--------------
+### Miscellaneous
 
 Packages that may be of interest but don't yet fit neatly into another category.
 
