@@ -14,6 +14,9 @@ exhaustive list of packages that are relevant to all of those fields,
 but rather a synopsis of packages that are for one reason or another of
 particular interest to Antarctic and Southern Ocean researchers. The
 definition of “particular interest” is of course largely arbitrary.
+Packages listed here are generally expected to be at a useful stage of
+development, or if not, are seeking engagement/input from the wider
+community.
 
 Contributions are welcome\! Please [submit an
 issue](https://github.com/ropensci/taxonomy/issues), or make a
