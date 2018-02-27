@@ -38,8 +38,6 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 
 - [blueant](https://github.com/AustralianAntarcticDivision/blueant) and its companion package [bowerbird](https://github.com/AustralianAntarcticDivision/bowerbird) provide a mechanism to download a range of environmental data including satellite-derived sea ice, sea surface temperature, topography, ocean colour (chlorophyll-a), and meteorological data from various providers. 
 
-- [RAADtools](https://github.com/AustralianAntarcticDivision/raadtools) provides tools for reading, plotting, and manipulating spatial data, including some of the data sets available through blueant.
-
 - <pkg>rsoi</pkg> downloads the most up to date Southern Oscillation Index, Oceanic Nino Index, and North Pacific Gyre Oscillation data.
 
 ### Biodiversity data
@@ -52,9 +50,16 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 
 ### Animal tracking
 
-Tracking of animals using satellite, GPS, or light-level geolocation tags is common, and there are many R packages that can help with this. Of particular interest may be:
+Tracking of animals using satellite, GPS, or light-level geolocation tags is common, and there are many R packages that can help with this. See the [SpatioTemporal Task View](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a more complete list. Of particular interest may be:
 
 - [TwilightFree](https://github.com/ABindoff/TwilightFree) provides a method for processing light-level geolocation data that is robust to noise (sensor shading and obscuration) and may be particularly suitable for Southern Ocean applications.
+
+
+### Ocean Colour
+
+Satellite reflectance data are a common basis for estimating chlorophyll-a and other phytoplankton parameters at ocean-basin scales. Global products are widely available; however, Southern-Ocean specific algorithms are likely to provide better estimates in these regions.
+
+- [croc](https://github.com/sosoc/croc) implements the Johnson et al. (2013) Southern Ocean algorithm.
 
 
 ### Miscellaneous
