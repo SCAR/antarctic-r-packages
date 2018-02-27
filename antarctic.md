@@ -15,7 +15,7 @@ The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic d
 - <pkg>worrms</pkg> client for the [WoRMS](http://www.marinespecies.org/) API. Contains mostly taxonomic data, but also trait data. 
 - <pkg>taxize</pkg> access to 20ish sources of taxonomic data sources, including WoRMS. <pkg>taxize</pkg> connects to a lot of data sources, and has consistent data outputs across the data sources. In addition, there's operations that a user wants to do that are consistent across data sources, hiding the gory details of each data source.
 
-RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by `worrms` and the server-side infrastructure hosted by VLIZ. There is also the <pkg>biotaxa</pkg> ([GitHub](https://github.com/hhsieh/biotaxa_Rpackage)) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).
+RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by `worrms` and the server-side infrastructure hosted by VLIZ. There is also the [biotaxa](https://github.com/hhsieh/biotaxa_Rpackage) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).
 
 For more detail on R packages dealing with taxonomy in general, see the [ropensci taxonomy task view](https://github.com/ropensci/taxonomy).
 
@@ -25,15 +25,15 @@ Mapping
 
 Mapping is a very common task, and in an Antarctic/Southern Ocean context brings with it particular issues including dealing with projections at high latitudes, coping with data that crosses the 180&deg;E line, adding commonly-desired features such as ocean fronts, management boundaries, sea ice extent, stations and other geographic features, and common contextual layers such as bathymetry.
 
-- <pkg>sospatial</pkg> ([GitHub](https://github.com/AustralianAntarcticDivision/sospatial) provides some easy to use Southern Ocean data sets and examples of their use with base graphics, raster, ggplot, and mapview/leaflet.
+- [sospatial](https://github.com/AustralianAntarcticDivision/sospatial) provides some easy to use Southern Ocean data sets and examples of their use with base graphics, raster, ggplot, and mapview/leaflet.
 
-- <pkg>antanym</pkg> ([GitHub](https://github.com/SCAR/antanym)) provides geographic place name data from the SCAR Composite Gazetteer of Antarctica, with plans to extend the coverage to subantarctic and informal gazetteers at a later date.
+- [antanym](https://github.com/SCAR/antanym) provides geographic place name data from the SCAR Composite Gazetteer of Antarctica, with plans to extend the coverage to subantarctic and informal gazetteers at a later date.
 
 - <pkg>orsifronts</pkg> provides the commonly-used Orsi et al. (1995) definitions of the major Southern Ocean fronts.
 
 - <pkg>graticule</pkg> creates graticule lines (lines of longitude and latitude) and labels for maps.
 
-- there is some Antarctic-related mapping functionality in <pkg>prtools</pkg> ([GitHub](https://github.com/pierreroudier/prtools)), <pkg>atlasr</pkg> ([GitHub](https://github.com/jiho/atlasr)), and <pkg>CCAMLRGIS</pkg> ([GitHub](https://github.com/ccamlr/CCAMLRGIS)).
+- there is some Antarctic-related mapping functionality in [prtools](https://github.com/pierreroudier/prtools), [atlasr](https://github.com/jiho/atlasr), and [CCAMLRGIS](https://github.com/ccamlr/CCAMLRGIS).
 
 
 Miscellaneous
@@ -41,4 +41,4 @@ Miscellaneous
 
 Packages that may be of interest but don't yet fit neatly into another category.
 
-- <pkg>distancetocoast</pkg> ([GitHub](https://github.com/mdsumner/distancetocoast)) provides "distance to coastline" data for longitude and latitude coordinates.
+- [distancetocoast](https://github.com/mdsumner/distancetocoast) provides "distance to coastline" data for longitude and latitude coordinates.

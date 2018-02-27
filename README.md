@@ -43,8 +43,8 @@ World Register of Marine Species (WoRMS).
 RAMS is currently being extended to cover non-marine taxa, which will
 become the Register of Antarctic Species (RAS). Hopefully this will
 remain covered by `worrms` and the server-side infrastructure hosted by
-VLIZ. There is also the [biotaxa](https://cran.rstudio.com/web/packages/biotaxa/index.html) (
-[GitHub](https://github.com/hhsieh/biotaxa_Rpackage)) package in
+VLIZ. There is also the
+[biotaxa](https://github.com/hhsieh/biotaxa_Rpackage) package in
 development for working with RAS (visualising and predicting the growth
 in taxonomic diversity over time).
 
@@ -58,15 +58,14 @@ context brings with it particular issues including dealing with
 projections at high latitudes, coping with data that crosses the 180°E
 line, adding commonly-desired features such as ocean fronts, management
 boundaries, sea ice extent, stations and other geographic features, and
-common contextual layers such as bathymetry.
+common contextual layers such as
+    bathymetry.
 
-  - [sospatial](https://cran.rstudio.com/web/packages/sospatial/index.html) (
-    [GitHub](https://github.com/AustralianAntarcticDivision/sospatial)
+  - [sospatial](https://github.com/AustralianAntarcticDivision/sospatial)
     provides some easy to use Southern Ocean data sets and examples of
     their use with base graphics, raster, ggplot, and mapview/leaflet.
 
-  - [antanym](https://cran.rstudio.com/web/packages/antanym/index.html) (
-    [GitHub](https://github.com/SCAR/antanym)) provides geographic place
+  - [antanym](https://github.com/SCAR/antanym) provides geographic place
     name data from the SCAR Composite Gazetteer of Antarctica, with
     plans to extend the coverage to subantarctic and informal gazetteers
     at a later date.
@@ -79,36 +78,25 @@ common contextual layers such as bathymetry.
     lines (lines of longitude and latitude) and labels for maps.
 
   - there is some Antarctic-related mapping functionality in
-    [prtools](https://cran.rstudio.com/web/packages/prtools/index.html) (
-    [GitHub](https://github.com/pierreroudier/prtools)),
-    [atlasr](https://cran.rstudio.com/web/packages/atlasr/index.html) (
-    [GitHub](https://github.com/jiho/atlasr)), and
-    [CCAMLRGIS](https://cran.rstudio.com/web/packages/CCAMLRGIS/index.html) (
-    [GitHub](https://github.com/ccamlr/CCAMLRGIS)).
+    [prtools](https://github.com/pierreroudier/prtools),
+    [atlasr](https://github.com/jiho/atlasr), and
+    [CCAMLRGIS](https://github.com/ccamlr/CCAMLRGIS).
 
 ## Miscellaneous
 
 Packages that may be of interest but don’t yet fit neatly into another
 category.
 
-  - [distancetocoast](https://cran.rstudio.com/web/packages/distancetocoast/index.html) (
-    [GitHub](https://github.com/mdsumner/distancetocoast)) provides
-    “distance to coastline” data for longitude and latitude
+  - [distancetocoast](https://github.com/mdsumner/distancetocoast)
+    provides “distance to coastline” data for longitude and latitude
     coordinates.
 
 </div>
 
 ### CRAN packages:
 
-  - [antanym](https://cran.rstudio.com/web/packages/antanym/index.html)
-  - [atlasr](https://cran.rstudio.com/web/packages/atlasr/index.html)
-  - [biotaxa](https://cran.rstudio.com/web/packages/biotaxa/index.html)
-  - [CCAMLRGIS](https://cran.rstudio.com/web/packages/CCAMLRGIS/index.html)
-  - [distancetocoast](https://cran.rstudio.com/web/packages/distancetocoast/index.html)
   - [graticule](https://cran.rstudio.com/web/packages/graticule/index.html)
   - [orsifronts](https://cran.rstudio.com/web/packages/orsifronts/index.html)
-  - [prtools](https://cran.rstudio.com/web/packages/prtools/index.html)
-  - [sospatial](https://cran.rstudio.com/web/packages/sospatial/index.html)
   - [taxize](https://cran.rstudio.com/web/packages/taxize/index.html)
   - [worrms](https://cran.rstudio.com/web/packages/worrms/index.html)
 

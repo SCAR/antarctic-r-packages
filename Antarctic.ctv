@@ -14,33 +14,26 @@
     <li><pkg>worrms</pkg> client for the <a href="http://www.marinespecies.org/">WoRMS</a> API. Contains mostly taxonomic data, but also trait data.</li>
     <li><pkg>taxize</pkg> access to 20ish sources of taxonomic data sources, including WoRMS. <pkg>taxize</pkg> connects to a lot of data sources, and has consistent data outputs across the data sources. In addition, there’s operations that a user wants to do that are consistent across data sources, hiding the gory details of each data source.</li>
     </ul>
-    <p>RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by <code>worrms</code> and the server-side infrastructure hosted by VLIZ. There is also the <pkg>biotaxa</pkg> (<a href="https://github.com/hhsieh/biotaxa_Rpackage">GitHub</a>) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).</p>
+    <p>RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by <code>worrms</code> and the server-side infrastructure hosted by VLIZ. There is also the <a href="https://github.com/hhsieh/biotaxa_Rpackage">biotaxa</a> package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).</p>
     <p>For more detail on R packages dealing with taxonomy in general, see the <a href="https://github.com/ropensci/taxonomy">ropensci taxonomy task view</a>.</p>
     <h2 id="mapping">Mapping</h2>
     <p>Mapping is a very common task, and in an Antarctic/Southern Ocean context brings with it particular issues including dealing with projections at high latitudes, coping with data that crosses the 180°E line, adding commonly-desired features such as ocean fronts, management boundaries, sea ice extent, stations and other geographic features, and common contextual layers such as bathymetry.</p>
     <ul>
-    <li><p><pkg>sospatial</pkg> (<a href="https://github.com/AustralianAntarcticDivision/sospatial">GitHub</a> provides some easy to use Southern Ocean data sets and examples of their use with base graphics, raster, ggplot, and mapview/leaflet.</p></li>
-    <li><p><pkg>antanym</pkg> (<a href="https://github.com/SCAR/antanym">GitHub</a>) provides geographic place name data from the SCAR Composite Gazetteer of Antarctica, with plans to extend the coverage to subantarctic and informal gazetteers at a later date.</p></li>
+    <li><p><a href="https://github.com/AustralianAntarcticDivision/sospatial">sospatial</a> provides some easy to use Southern Ocean data sets and examples of their use with base graphics, raster, ggplot, and mapview/leaflet.</p></li>
+    <li><p><a href="https://github.com/SCAR/antanym">antanym</a> provides geographic place name data from the SCAR Composite Gazetteer of Antarctica, with plans to extend the coverage to subantarctic and informal gazetteers at a later date.</p></li>
     <li><p><pkg>orsifronts</pkg> provides the commonly-used Orsi et al. (1995) definitions of the major Southern Ocean fronts.</p></li>
     <li><p><pkg>graticule</pkg> creates graticule lines (lines of longitude and latitude) and labels for maps.</p></li>
-    <li><p>there is some Antarctic-related mapping functionality in <pkg>prtools</pkg> (<a href="https://github.com/pierreroudier/prtools">GitHub</a>), <pkg>atlasr</pkg> (<a href="https://github.com/jiho/atlasr">GitHub</a>), and <pkg>CCAMLRGIS</pkg> (<a href="https://github.com/ccamlr/CCAMLRGIS">GitHub</a>).</p></li>
+    <li><p>there is some Antarctic-related mapping functionality in <a href="https://github.com/pierreroudier/prtools">prtools</a>, <a href="https://github.com/jiho/atlasr">atlasr</a>, and <a href="https://github.com/ccamlr/CCAMLRGIS">CCAMLRGIS</a>.</p></li>
     </ul>
     <h2 id="miscellaneous">Miscellaneous</h2>
     <p>Packages that may be of interest but don’t yet fit neatly into another category.</p>
     <ul>
-    <li><pkg>distancetocoast</pkg> (<a href="https://github.com/mdsumner/distancetocoast">GitHub</a>) provides “distance to coastline” data for longitude and latitude coordinates.</li>
+    <li><a href="https://github.com/mdsumner/distancetocoast">distancetocoast</a> provides “distance to coastline” data for longitude and latitude coordinates.</li>
     </ul>
   </info>
   <packagelist>
-    <pkg>antanym</pkg>
-    <pkg>atlasr</pkg>
-    <pkg>biotaxa</pkg>
-    <pkg>CCAMLRGIS</pkg>
-    <pkg>distancetocoast</pkg>
     <pkg>graticule</pkg>
     <pkg>orsifronts</pkg>
-    <pkg>prtools</pkg>
-    <pkg>sospatial</pkg>
     <pkg>taxize</pkg>
     <pkg>worrms</pkg>
   </packagelist>
