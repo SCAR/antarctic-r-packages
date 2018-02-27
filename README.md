@@ -77,10 +77,60 @@ common contextual layers such as
   - [graticule](https://cran.rstudio.com/web/packages/graticule/index.html) creates graticule
     lines (lines of longitude and latitude) and labels for maps.
 
+  - [palr](https://cran.rstudio.com/web/packages/palr/index.html) provides colour palettes for
+    data, based on some well known remotely sensed data sets for sea ice
+    concentration, sea surface temperature and chlorophyll-a.
+
   - there is some Antarctic-related mapping functionality in
     [prtools](https://github.com/pierreroudier/prtools),
     [atlasr](https://github.com/jiho/atlasr), and
     [CCAMLRGIS](https://github.com/ccamlr/CCAMLRGIS).
+
+### Environmental Data
+
+  - [blueant](https://github.com/AustralianAntarcticDivision/blueant)
+    and its companion package
+    [bowerbird](https://github.com/AustralianAntarcticDivision/bowerbird)
+    provide a mechanism to download a range of environmental data
+    including satellite-derived sea ice, sea surface temperature,
+    topography, ocean colour (chlorophyll-a), and meteorological data
+    from various
+    providers.
+
+  - [RAADtools](https://github.com/AustralianAntarcticDivision/raadtools)
+    provides tools for reading, plotting, and manipulating spatial data,
+    including some of the data sets available through blueant.
+
+  - [rsoi](https://cran.rstudio.com/web/packages/rsoi/index.html) downloads the most up to date
+    Southern Oscillation Index, Oceanic Nino Index, and North Pacific
+    Gyre Oscillation data.
+
+### Biodiversity data
+
+  - [robis](https://cran.rstudio.com/web/packages/robis/index.html) for marine data,
+    [rgbif](https://cran.rstudio.com/web/packages/rgbif/index.html) for global biodiversity data.
+    [spocc](https://cran.rstudio.com/web/packages/spocc/index.html) wraps these and other
+    occurrence data providers.
+
+  - [obistools](https://github.com/iobis/obistools) and
+    [scrubr](https://cran.rstudio.com/web/packages/scrubr/index.html) for quality-checking
+    occurrence data.
+
+  - a package for the data behind the [Mapping Application for Penguin
+    Populations and Projected Dynamics
+    (MAPPPD)](http://www.penguinmap.com/) is in planning: contact Grant
+    Humphries
+
+### Animal tracking
+
+Tracking of animals using satellite, GPS, or light-level geolocation
+tags is common, and there are many R packages that can help with this.
+Of particular interest may be:
+
+  - [TwilightFree](https://github.com/ABindoff/TwilightFree) provides a
+    method for processing light-level geolocation data that is robust to
+    noise (sensor shading and obscuration) and may be particularly
+    suitable for Southern Ocean applications.
 
 ### Miscellaneous
 
@@ -97,6 +147,12 @@ category.
 
   - [graticule](https://cran.rstudio.com/web/packages/graticule/index.html)
   - [orsifronts](https://cran.rstudio.com/web/packages/orsifronts/index.html)
+  - [palr](https://cran.rstudio.com/web/packages/palr/index.html)
+  - [rgbif](https://cran.rstudio.com/web/packages/rgbif/index.html)
+  - [robis](https://cran.rstudio.com/web/packages/robis/index.html)
+  - [rsoi](https://cran.rstudio.com/web/packages/rsoi/index.html)
+  - [scrubr](https://cran.rstudio.com/web/packages/scrubr/index.html)
+  - [spocc](https://cran.rstudio.com/web/packages/spocc/index.html)
   - [taxize](https://cran.rstudio.com/web/packages/taxize/index.html)
   - [worrms](https://cran.rstudio.com/web/packages/worrms/index.html)
 
