@@ -20,7 +20,7 @@ For more detail on R packages dealing with taxonomy in general, see the [ropensc
 
 ### Mapping
 
-Mapping is a very common task, and in an Antarctic/Southern Ocean context brings with it particular issues including dealing with projections at high latitudes, coping with data that crosses the 180&deg;E line, adding commonly-desired features such as ocean fronts, management boundaries, sea ice extent, stations and other geographic features, and common contextual layers such as bathymetry.
+Mapping is a very common task, and in an Antarctic/Southern Ocean context brings with it particular issues including dealing with projection properties at high latitudes, coping with data that crosses the 180&deg;E line, adding commonly-desired features such as ocean fronts, management boundaries, sea ice extent, stations and other geographic features, and common contextual layers such as bathymetry.
 
 - [sospatial](https://github.com/AustralianAntarcticDivision/sospatial) provides some easy to use Southern Ocean data sets and examples of their use with base graphics, raster, ggplot, and mapview/leaflet.
 
@@ -30,13 +30,13 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 
 - <pkg>graticule</pkg> creates graticule lines (lines of longitude and latitude) and labels for maps.
 
-- <pkg>palr</pkg> provides colour palettes for data, based on some well known remotely sensed data sets for sea ice concentration, sea surface temperature and chlorophyll-a.
+- <pkg>palr</pkg> provides colour palettes for data, based on some well known remotely sensed data sets for sea ice concentration, sea surface temperature and chlorophyll-*a*.
 
 - there is some Antarctic-related mapping functionality in [prtools](https://github.com/pierreroudier/prtools), [atlasr](https://github.com/jiho/atlasr), and [CCAMLRGIS](https://github.com/ccamlr/CCAMLRGIS).
 
 ### Environmental Data
 
-- [blueant](https://github.com/AustralianAntarcticDivision/blueant) and its companion package [bowerbird](https://github.com/AustralianAntarcticDivision/bowerbird) provide a mechanism to download a range of environmental data including satellite-derived sea ice, sea surface temperature, topography, ocean colour (chlorophyll-a), and meteorological data from various providers. 
+- [blueant](https://github.com/AustralianAntarcticDivision/blueant) and its companion package [bowerbird](https://github.com/AustralianAntarcticDivision/bowerbird) provide a mechanism to download a range of environmental data including satellite-derived sea ice, sea surface temperature, topography, ocean colour (chlorophyll-*a*), and meteorological data from various providers. 
 
 - <pkg>rsoi</pkg> downloads the most up to date Southern Oscillation Index, Oceanic Nino Index, and North Pacific Gyre Oscillation data.
 
@@ -57,7 +57,7 @@ Tracking of animals using satellite, GPS, or light-level geolocation tags is com
 
 ### Ocean Colour
 
-Satellite reflectance data are a common basis for estimating chlorophyll-a and other phytoplankton parameters at ocean-basin scales. Global products are widely available; however, Southern-Ocean specific algorithms are likely to provide better estimates in these regions.
+Satellite reflectance data are a common basis for estimating chlorophyll-*a* and other phytoplankton parameters at ocean-basin scales. Global products are widely available; however, Southern-Ocean specific algorithms are likely to provide better estimates in these regions.
 
 - [croc](https://github.com/sosoc/croc) implements the Johnson et al. (2013) Southern Ocean algorithm.
 
