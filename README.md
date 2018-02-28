@@ -52,7 +52,7 @@ development for working with RAS (visualising and predicting the growth
 in taxonomic diversity over time).
 
 For more detail on R packages dealing with taxonomy in general, see the
-[ropensci taxonomy task view](https://github.com/ropensci/taxonomy).
+[rOpenSci taxonomy task view](https://github.com/ropensci/taxonomy).
 
 ### Mapping
 
@@ -97,7 +97,11 @@ features, and common contextual layers such as
     provide a mechanism to download a range of environmental data
     including satellite-derived sea ice, sea surface temperature,
     topography, ocean colour (chlorophyll- *a* ), and meteorological
-    data from various providers.
+    data from various providers. Many of these data sets can be read and
+    manipulated with [raster](https://cran.rstudio.com/web/packages/raster/index.html) and similar
+    packages: the [spatial task
+    view](https://cran.r-project.org/web/views/Spatial.html) is a good
+    resource here.
 
   - [rsoi](https://cran.rstudio.com/web/packages/rsoi/index.html) downloads the most up to date
     Southern Oscillation Index, Oceanic Nino Index, and North Pacific
@@ -123,8 +127,8 @@ features, and common contextual layers such as
 
 Tracking of animals using satellite, GPS, or light-level geolocation
 tags is common, and there are many R packages that can help with this.
-See the [SpatioTemporal Task
-View](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a
+See the [spatiotemporal task
+view](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a
 more complete list. Of particular interest may be:
 
   - [TwilightFree](https://github.com/ABindoff/TwilightFree) provides a
@@ -159,6 +163,7 @@ category.
   - [graticule](https://cran.rstudio.com/web/packages/graticule/index.html)
   - [orsifronts](https://cran.rstudio.com/web/packages/orsifronts/index.html)
   - [palr](https://cran.rstudio.com/web/packages/palr/index.html)
+  - [raster](https://cran.rstudio.com/web/packages/raster/index.html)
   - [rgbif](https://cran.rstudio.com/web/packages/rgbif/index.html)
   - [robis](https://cran.rstudio.com/web/packages/robis/index.html)
   - [rsoi](https://cran.rstudio.com/web/packages/rsoi/index.html)
@@ -169,6 +174,8 @@ category.
 
 ### Related links:
 
-  - [Taxonomy Task View](https://github.com/ropensci/taxonomy)
-  - [Spatiotemporal Task
-    View](https://cloud.r-project.org/web/views/SpatioTemporal.html)
+  - [taxonomy task view](https://github.com/ropensci/taxonomy)
+  - [spatial task
+    view](https://cran.r-project.org/web/views/Spatial.html)
+  - [spatiotemporal task
+    view](https://cloud.r-project.org/web/views/SpatioTemporal.html)

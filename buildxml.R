@@ -24,8 +24,9 @@ c(paste0('<CRANTaskView>
   paste0('    <pkg>', unlist(unname(pkgs)), '</pkg>', collapse = "\n"),
   '  </packagelist>',
   '  <links>',
-  '    <a href="https://github.com/ropensci/taxonomy">Taxonomy Task View</a>',
-  '    <a href="https://cloud.r-project.org/web/views/SpatioTemporal.html">Spatiotemporal Task View</a>',
+  '    <a href="https://github.com/ropensci/taxonomy">taxonomy task view</a>',
+  '    <a href="https://cran.r-project.org/web/views/Spatial.html">spatial task view</a>',
+  '    <a href="https://cloud.r-project.org/web/views/SpatioTemporal.html">spatiotemporal task view</a>',
   '  </links>',
   '</CRANTaskView>')
 

@@ -15,7 +15,7 @@ The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic d
 
 RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by `worrms` and the server-side infrastructure hosted by VLIZ. There is also the [biotaxa](https://github.com/hhsieh/biotaxa_Rpackage) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).
 
-For more detail on R packages dealing with taxonomy in general, see the [ropensci taxonomy task view](https://github.com/ropensci/taxonomy).
+For more detail on R packages dealing with taxonomy in general, see the [rOpenSci taxonomy task view](https://github.com/ropensci/taxonomy).
 
 
 ### Mapping
@@ -36,7 +36,7 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 
 ### Environmental Data
 
-- [blueant](https://github.com/AustralianAntarcticDivision/blueant) and its companion package [bowerbird](https://github.com/AustralianAntarcticDivision/bowerbird) provide a mechanism to download a range of environmental data including satellite-derived sea ice, sea surface temperature, topography, ocean colour (chlorophyll-*a*), and meteorological data from various providers. 
+- [blueant](https://github.com/AustralianAntarcticDivision/blueant) and its companion package [bowerbird](https://github.com/AustralianAntarcticDivision/bowerbird) provide a mechanism to download a range of environmental data including satellite-derived sea ice, sea surface temperature, topography, ocean colour (chlorophyll-*a*), and meteorological data from various providers. Many of these data sets can be read and manipulated with <pkg>raster</pkg> and similar packages: the [spatial task view](https://cran.r-project.org/web/views/Spatial.html) is a good resource here.
 
 - <pkg>rsoi</pkg> downloads the most up to date Southern Oscillation Index, Oceanic Nino Index, and North Pacific Gyre Oscillation data.
 
@@ -50,7 +50,7 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 
 ### Animal tracking
 
-Tracking of animals using satellite, GPS, or light-level geolocation tags is common, and there are many R packages that can help with this. See the [SpatioTemporal Task View](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a more complete list. Of particular interest may be:
+Tracking of animals using satellite, GPS, or light-level geolocation tags is common, and there are many R packages that can help with this. See the [spatiotemporal task view](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a more complete list. Of particular interest may be:
 
 - [TwilightFree](https://github.com/ABindoff/TwilightFree) provides a method for processing light-level geolocation data that is robust to noise (sensor shading and obscuration) and may be particularly suitable for Southern Ocean applications.
 
