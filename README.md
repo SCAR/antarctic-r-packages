@@ -131,8 +131,8 @@ regions.
 
   - a package for the data behind the [Mapping Application for Penguin
     Populations and Projected Dynamics
-    (MAPPPD)](http://www.penguinmap.com/) is in planning: contact Grant
-    Humphries.
+    (MAPPPD)](http://www.penguinmap.com/) is in planning: contact [Grant
+    Humphries](mailto:grwhumphries@blackbawks.net).
 
 ### Animal tracking
 

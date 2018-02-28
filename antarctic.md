@@ -54,7 +54,7 @@ Satellite reflectance data are a common basis for estimating chlorophyll-*a* and
 
 - [obistools](https://github.com/iobis/obistools) and <pkg>scrubr</pkg> for quality-checking occurrence data.
 
-- a package for the data behind the [Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)](http://www.penguinmap.com/) is in planning: contact Grant Humphries.
+- a package for the data behind the [Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)](http://www.penguinmap.com/) is in planning: contact [Grant Humphries](mailto:grwhumphries@blackbawks.net).
 
 
 ### Animal tracking
