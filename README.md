@@ -35,13 +35,11 @@ World Register of Marine Species (WoRMS).
   - [worrms](https://cran.rstudio.com/web/packages/worrms/index.html) client for the
     [WoRMS](http://www.marinespecies.org/) API. Contains mostly
     taxonomic data, but also trait data.
-  - [taxize](https://cran.rstudio.com/web/packages/taxize/index.html) access to 20ish sources of
-    taxonomic data sources, including WoRMS.
-    [taxize](https://cran.rstudio.com/web/packages/taxize/index.html) connects to a lot of data
-    sources, and has consistent data outputs across the data sources. In
-    addition, there’s operations that a user wants to do that are
-    consistent across data sources, hiding the gory details of each data
-    source.
+  - [taxize](https://cran.rstudio.com/web/packages/taxize/index.html) provides access to 20ish
+    sources of taxonomic data sources, including WoRMS, and has
+    consistent data outputs and function interfaces across the different
+    data sources so that you don’t need to tailor your code to different
+    taxonomic data providers.
 
 RAMS is currently being extended to cover non-marine taxa, which will
 become the Register of Antarctic Species (RAS). Hopefully this will
@@ -107,6 +105,17 @@ features, and common contextual layers such as
     Southern Oscillation Index, Oceanic Nino Index, and North Pacific
     Gyre Oscillation data.
 
+### Ocean Colour
+
+Satellite reflectance data are a common basis for estimating
+chlorophyll- *a* and other phytoplankton parameters at ocean-basin
+scales. Global products are widely available; however, Southern-Ocean
+specific algorithms are likely to provide better estimates in these
+regions.
+
+  - [croc](https://github.com/sosoc/croc) implements the Johnson et al.
+    (2013) Southern Ocean algorithm.
+
 ### Biodiversity data
 
   - [robis](https://cran.rstudio.com/web/packages/robis/index.html) for marine data,
@@ -121,7 +130,7 @@ features, and common contextual layers such as
   - a package for the data behind the [Mapping Application for Penguin
     Populations and Projected Dynamics
     (MAPPPD)](http://www.penguinmap.com/) is in planning: contact Grant
-    Humphries
+    Humphries.
 
 ### Animal tracking
 
@@ -135,17 +144,6 @@ more complete list. Of particular interest may be:
     method for processing light-level geolocation data that is robust to
     noise (sensor shading and obscuration) and may be particularly
     suitable for Southern Ocean applications.
-
-### Ocean Colour
-
-Satellite reflectance data are a common basis for estimating
-chlorophyll- *a* and other phytoplankton parameters at ocean-basin
-scales. Global products are widely available; however, Southern-Ocean
-specific algorithms are likely to provide better estimates in these
-regions.
-
-  - [croc](https://github.com/sosoc/croc) implements the Johnson et al.
-    (2013) Southern Ocean algorithm.
 
 ### Miscellaneous
 

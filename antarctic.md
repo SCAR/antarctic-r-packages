@@ -11,7 +11,7 @@ Many thanks to Scott Chamberlain and Michael Sumner for contributions.
 The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic database for Antarctic marine organisms. RAMS is part of the World Register of Marine Species (WoRMS).
 
 - <pkg>worrms</pkg> client for the [WoRMS](http://www.marinespecies.org/) API. Contains mostly taxonomic data, but also trait data. 
-- <pkg>taxize</pkg> access to 20ish sources of taxonomic data sources, including WoRMS. <pkg>taxize</pkg> connects to a lot of data sources, and has consistent data outputs across the data sources. In addition, there's operations that a user wants to do that are consistent across data sources, hiding the gory details of each data source.
+- <pkg>taxize</pkg> provides access to 20ish sources of taxonomic data sources, including WoRMS, and has consistent data outputs and function interfaces across the different data sources so that you don't need to tailor your code to different taxonomic data providers.
 
 RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by `worrms` and the server-side infrastructure hosted by VLIZ. There is also the [biotaxa](https://github.com/hhsieh/biotaxa_Rpackage) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).
 
@@ -40,26 +40,28 @@ Mapping is a very common task, and in an Antarctic/Southern Ocean context brings
 
 - <pkg>rsoi</pkg> downloads the most up to date Southern Oscillation Index, Oceanic Nino Index, and North Pacific Gyre Oscillation data.
 
-### Biodiversity data
-
-- <pkg>robis</pkg> for marine data, <pkg>rgbif</pkg> for global biodiversity data. <pkg>spocc</pkg> wraps these and other occurrence data providers.
-
-- [obistools](https://github.com/iobis/obistools) and <pkg>scrubr</pkg> for quality-checking occurrence data.
-
-- a package for the data behind the [Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)](http://www.penguinmap.com/) is in planning: contact Grant Humphries
-
-### Animal tracking
-
-Tracking of animals using satellite, GPS, or light-level geolocation tags is common, and there are many R packages that can help with this. See the [spatiotemporal task view](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a more complete list. Of particular interest may be:
-
-- [TwilightFree](https://github.com/ABindoff/TwilightFree) provides a method for processing light-level geolocation data that is robust to noise (sensor shading and obscuration) and may be particularly suitable for Southern Ocean applications.
-
 
 ### Ocean Colour
 
 Satellite reflectance data are a common basis for estimating chlorophyll-*a* and other phytoplankton parameters at ocean-basin scales. Global products are widely available; however, Southern-Ocean specific algorithms are likely to provide better estimates in these regions.
 
 - [croc](https://github.com/sosoc/croc) implements the Johnson et al. (2013) Southern Ocean algorithm.
+
+
+### Biodiversity data
+
+- <pkg>robis</pkg> for marine data, <pkg>rgbif</pkg> for global biodiversity data. <pkg>spocc</pkg> wraps these and other occurrence data providers.
+
+- [obistools](https://github.com/iobis/obistools) and <pkg>scrubr</pkg> for quality-checking occurrence data.
+
+- a package for the data behind the [Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)](http://www.penguinmap.com/) is in planning: contact Grant Humphries.
+
+
+### Animal tracking
+
+Tracking of animals using satellite, GPS, or light-level geolocation tags is common, and there are many R packages that can help with this. See the [spatiotemporal task view](https://cloud.r-project.org/web/views/SpatioTemporal.html) for a more complete list. Of particular interest may be:
+
+- [TwilightFree](https://github.com/ABindoff/TwilightFree) provides a method for processing light-level geolocation data that is robust to noise (sensor shading and obscuration) and may be particularly suitable for Southern Ocean applications.
 
 
 ### Miscellaneous
