@@ -36,7 +36,7 @@ World Register of Marine Species (WoRMS).
     [WoRMS](http://www.marinespecies.org/) API. Contains mostly
     taxonomic data, but also trait data.
   - [taxize](https://cran.rstudio.com/web/packages/taxize/index.html) provides access to 20ish
-    sources of taxonomic data sources, including WoRMS, and has
+    sources of taxonomic data sources, including WoRMS. It has
     consistent data outputs and function interfaces across the different
     data sources so that you don’t need to tailor your code to different
     taxonomic data providers.
@@ -121,7 +121,9 @@ regions.
   - [robis](https://cran.rstudio.com/web/packages/robis/index.html) for marine data,
     [rgbif](https://cran.rstudio.com/web/packages/rgbif/index.html) for global biodiversity data.
     [spocc](https://cran.rstudio.com/web/packages/spocc/index.html) wraps these and other
-    occurrence data providers.
+    occurrence data providers with a consistent interface (but not
+    necessarily the full functionality of provider-specific packages,
+    where they exist).
 
   - [obistools](https://github.com/iobis/obistools) and
     [scrubr](https://cran.rstudio.com/web/packages/scrubr/index.html) for quality-checking

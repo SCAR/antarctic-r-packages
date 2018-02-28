@@ -11,7 +11,7 @@ Many thanks to Scott Chamberlain and Michael Sumner for contributions.
 The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic database for Antarctic marine organisms. RAMS is part of the World Register of Marine Species (WoRMS).
 
 - <pkg>worrms</pkg> client for the [WoRMS](http://www.marinespecies.org/) API. Contains mostly taxonomic data, but also trait data. 
-- <pkg>taxize</pkg> provides access to 20ish sources of taxonomic data sources, including WoRMS, and has consistent data outputs and function interfaces across the different data sources so that you don't need to tailor your code to different taxonomic data providers.
+- <pkg>taxize</pkg> provides access to 20ish sources of taxonomic data sources, including WoRMS. It has consistent data outputs and function interfaces across the different data sources so that you don't need to tailor your code to different taxonomic data providers.
 
 RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by `worrms` and the server-side infrastructure hosted by VLIZ. There is also the [biotaxa](https://github.com/hhsieh/biotaxa_Rpackage) package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).
 
@@ -50,7 +50,7 @@ Satellite reflectance data are a common basis for estimating chlorophyll-*a* and
 
 ### Biodiversity data
 
-- <pkg>robis</pkg> for marine data, <pkg>rgbif</pkg> for global biodiversity data. <pkg>spocc</pkg> wraps these and other occurrence data providers.
+- <pkg>robis</pkg> for marine data, <pkg>rgbif</pkg> for global biodiversity data. <pkg>spocc</pkg> wraps these and other occurrence data providers with a consistent interface (but not necessarily the full functionality of provider-specific packages, where they exist).
 
 - [obistools](https://github.com/iobis/obistools) and <pkg>scrubr</pkg> for quality-checking occurrence data.
 

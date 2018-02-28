@@ -12,7 +12,7 @@
     <p>The Register of Antarctic Marine Species (RAMS) is the authoritative taxonomic database for Antarctic marine organisms. RAMS is part of the World Register of Marine Species (WoRMS).</p>
     <ul>
     <li><pkg>worrms</pkg> client for the <a href="http://www.marinespecies.org/">WoRMS</a> API. Contains mostly taxonomic data, but also trait data.</li>
-    <li><pkg>taxize</pkg> provides access to 20ish sources of taxonomic data sources, including WoRMS, and has consistent data outputs and function interfaces across the different data sources so that you don’t need to tailor your code to different taxonomic data providers.</li>
+    <li><pkg>taxize</pkg> provides access to 20ish sources of taxonomic data sources, including WoRMS. It has consistent data outputs and function interfaces across the different data sources so that you don’t need to tailor your code to different taxonomic data providers.</li>
     </ul>
     <p>RAMS is currently being extended to cover non-marine taxa, which will become the Register of Antarctic Species (RAS). Hopefully this will remain covered by <code>worrms</code> and the server-side infrastructure hosted by VLIZ. There is also the <a href="https://github.com/hhsieh/biotaxa_Rpackage">biotaxa</a> package in development for working with RAS (visualising and predicting the growth in taxonomic diversity over time).</p>
     <p>For more detail on R packages dealing with taxonomy in general, see the <a href="https://github.com/ropensci/taxonomy">rOpenSci taxonomy task view</a>.</p>
@@ -38,7 +38,7 @@
     </ul>
     <h3 id="biodiversity-data">Biodiversity data</h3>
     <ul>
-    <li><p><pkg>robis</pkg> for marine data, <pkg>rgbif</pkg> for global biodiversity data. <pkg>spocc</pkg> wraps these and other occurrence data providers.</p></li>
+    <li><p><pkg>robis</pkg> for marine data, <pkg>rgbif</pkg> for global biodiversity data. <pkg>spocc</pkg> wraps these and other occurrence data providers with a consistent interface (but not necessarily the full functionality of provider-specific packages, where they exist).</p></li>
     <li><p><a href="https://github.com/iobis/obistools">obistools</a> and <pkg>scrubr</pkg> for quality-checking occurrence data.</p></li>
     <li><p>a package for the data behind the <a href="http://www.penguinmap.com/">Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)</a> is in planning: contact Grant Humphries.</p></li>
     </ul>
