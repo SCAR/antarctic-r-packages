@@ -134,6 +134,9 @@ regions.
     (MAPPPD)](http://www.penguinmap.com/) is in planning: contact [Grant
     Humphries](mailto:grwhumphries@blackbawks.net).
 
+  - diet data [sohungry](https://github.com/SCAR/sohungry) and
+    allometric equations [solong](https://github.com/SCAR/solong)
+
 ### Animal tracking
 
 Tracking of animals using satellite, GPS, or light-level geolocation
