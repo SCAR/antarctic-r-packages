@@ -56,6 +56,7 @@ Satellite reflectance data are a common basis for estimating chlorophyll-*a* and
 
 - a package for the data behind the [Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)](http://www.penguinmap.com/) is in planning: contact [Grant Humphries](mailto:grwhumphries@blackbawks.net).
 
+- diet data [sohungry](https://github.com/SCAR/sohungry) and allometric equations [solong](https://github.com/SCAR/solong)
 
 ### Animal tracking
 
